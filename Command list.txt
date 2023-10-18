@@ -1,0 +1,19 @@
+Note that venv used for this project, activate the venv by:
+C:\Users\Aaron\Documents\GitHub\yolov5 Scripts\activate
+
+To use the detect file:
+python detect.py --weights yolov5s.pt --source 0                               # webcam
+                                               img.jpg                         # image
+                                               vid.mp4                         # video
+                                               screen                          # screenshot
+                                               path/                           # directory
+                                               list.txt                        # list of images
+                                               list.streams                    # list of streams
+                                               'path/*.jpg'                    # glob
+                                               'https://youtu.be/LNwODJXcvt4'  # YouTube
+                                               'rtsp://example.com/media.mp4'  # RTSP, RTMP, HTTP stream
+
+To train:
+python train.py --img 640 --epochs 3 --data coco128.yaml --weights yolov5s.pt
+
+git installation is required

@@ -1,0 +1,4 @@
+train: /root/ai/data/pic/comb/train/images
+val: /root/ai/data/pic/comb/val/images
+nc: 3
+names: ['8um','13um','3um']

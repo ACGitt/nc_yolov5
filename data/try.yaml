@@ -1,0 +1,4 @@
+train: ./comb/train/images
+val: ./comb/val/images
+nc: 3
+names: ['8um','13um','3um']
